@@ -1,0 +1,20 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: darkblue;
+    border: 1px solid darkblue;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: blue;
+    text-decoration-line: underline;
+}
+
+h3{
+    color: lightblue;
+    text-decoration-line: underline;
+}
