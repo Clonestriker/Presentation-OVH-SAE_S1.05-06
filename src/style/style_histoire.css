@@ -1,0 +1,17 @@
+.paragraphe{
+
+    text-align: center;
+
+
+    border: solid;
+    box-sizing: 10px 10px 10px 10px;
+    margin-right: 30%;
+    margin-left: 30%;
+
+}
+
+#octaveKlabaJeune{
+    width: 75%;
+    height: 75%;
+    object-position: 50% 50%;
+}
