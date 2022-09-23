@@ -12,4 +12,10 @@ menu{
   button {
     width: 100%;
   }
-  
+h1{
+  text-align: center;
+  }
+header{
+  position: relative;
+  position: fixed;
+}
