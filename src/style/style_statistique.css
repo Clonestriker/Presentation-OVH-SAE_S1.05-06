@@ -1,37 +1,23 @@
-header{
-    top: 0;
-    position: sticky;
-    background-color: white;
-
-}
-nav{
-    display: flex;
-}
-
-
-.element{
-    padding-top: 1.5em;
-    text-align: center;
-    padding-right: 100px;
-}
-
-.element li{
-
-    display: inline;
-    padding: 0em 5em 0em 5em;
-}
-
-
-.element a{
-    background-color: white;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
     text-decoration: none;
-    font-size: 24px;
 }
 
 
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: red;
 
+}
 
-
-
-
-
+.nav-item a{
+    text-decoration: none;
+    margin: 0px 2px 100px 2px;
+    background-color: yellow;
+    color: black;
+}
