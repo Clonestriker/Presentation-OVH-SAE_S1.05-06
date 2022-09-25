@@ -1,8 +1,37 @@
-.navbar-brand{
-        padding-top: 0.3125rem;
-        padding-bottom: 0.3125rem;
-        margin-right: 1rem;
-        font-size: 1.25rem;
-        text-decoration: none;
-        white-space: nowrap;
+header{
+    top: 0;
+    position: sticky;
+    background-color: white;
+
 }
+nav{
+    display: flex;
+}
+
+
+.element{
+    padding-top: 1.5em;
+    text-align: center;
+    padding-right: 100px;
+}
+
+.element li{
+
+    display: inline;
+    padding: 0em 5em 0em 5em;
+}
+
+
+.element a{
+    background-color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
