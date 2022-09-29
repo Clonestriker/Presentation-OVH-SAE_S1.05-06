@@ -19,3 +19,13 @@ header{
   position: relative;
   position: fixed;
 }
+.image{
+  color:black;
+  background-color:white;
+  background-image:url(src/Images/imageback.jpg);
+  margin:0;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-position: top center;
+  min-height: 500px;
+}
