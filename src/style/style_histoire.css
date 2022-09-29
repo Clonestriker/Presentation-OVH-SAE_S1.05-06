@@ -1,17 +1,69 @@
-.paragraphe{
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.navbar{
+    background-color: #001D4A;
+
+}
+.nav-link1{
+    color: white;
+    text-decoration: none;
     text-align: center;
+    padding: 0px 2em 0px 2em
+}
+
+
+body{
+    
+    
+}
+
+
+
+
+.paragraphe_droite{
+    margin-top: 10%;
+    margin-left: 20%;
+    display: flex;
+    text-align: center;
+    position: relative;
+    font-family: 'Montserrat';
+    font-size: x-large;
+    background-color: #00699225;
 
 
     border: solid;
     box-sizing: 10px 10px 10px 10px;
-    margin-right: 30%;
-    margin-left: 30%;
+
 
 }
 
-#octaveKlabaJeune{
-    width: 75%;
-    height: 75%;
-    object-position: 50% 50%;
+.paragraphe_gauche{
+    margin-top: 10%;
+    margin-right: 20%;
+    display: flex;
+    text-align: center;
+    position: relative;
+    font-family: 'Montserrat';
+    font-size: x-large;
+    background-color: #00699225;
+
+
+    border: solid;
+    box-sizing: 10px 10px 10px 10px;
+
+
+
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-size: xx-large;
+    text-align: center;
+}
+
+footer{
+    margin-top: 15%;
+    text-align: center;
+    background-color: #001D4A;
+    color: white;
 }
