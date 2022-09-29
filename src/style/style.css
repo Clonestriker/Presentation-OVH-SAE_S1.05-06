@@ -27,4 +27,5 @@ header{
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-position: top center;
+  min-height: 500px;
 }
