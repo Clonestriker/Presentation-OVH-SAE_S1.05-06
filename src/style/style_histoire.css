@@ -17,6 +17,12 @@ body{
     
 }
 
+h1{
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Montserrat';
+    
+}
 
 
 
@@ -28,11 +34,14 @@ body{
     position: relative;
     font-family: 'Montserrat';
     font-size: x-large;
-    background-color: #00699225;
+    background-color: #ffffff85;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 
 
     border: solid;
     box-sizing: 10px 10px 10px 10px;
+    border-radius: 45px;
 
 
 }
@@ -45,15 +54,24 @@ body{
     position: relative;
     font-family: 'Montserrat';
     font-size: x-large;
-    background-color: #00699225;
+    background-color: #ffffff85;
+
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 
 
     border: solid;
     box-sizing: 10px 10px 10px 10px;
+    border-radius: 45px;
 
 
 
 }
+
+img{
+    border-radius: 45px;
+}
+
 
 h2{
     font-family: 'Montserrat';
@@ -66,4 +84,24 @@ footer{
     text-align: center;
     background-color: #001D4A;
     color: white;
+    
 }
+
+
+.gradient-background {
+    background: linear-gradient(216deg,#001d4a,#006992,#231a21,#0d6e64,#ffffff);
+    background-size: 300% 300%;
+    animation: gradient-animation 50s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
