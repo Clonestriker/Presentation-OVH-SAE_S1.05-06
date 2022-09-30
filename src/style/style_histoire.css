@@ -11,12 +11,12 @@
     padding: 0px 2em 0px 2em
 }
 
+html{
 
-body{
-    
-    
+--res: calc(0.01*10vmin)
+
+
 }
-
 h1{
     text-align: center;
     padding-top: 5%;
@@ -24,24 +24,28 @@ h1{
     
 }
 
+.image_responsive{
+  max-width: 1000px;
+  min-width: 750px;
+  min-height: 500px;
+  width: auto;
+  height: 100%;
+}
 
 
 .paragraphe_droite{
+
     margin-top: 10%;
     margin-left: 20%;
     display: flex;
     text-align: center;
     position: relative;
     font-family: 'Montserrat';
-    font-size: x-large;
+    font-size: calc(24*var(--res));
     background-color: #ffffff85;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
      rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 
-
-    border: solid;
-    box-sizing: 10px 10px 10px 10px;
-    border-radius: 45px;
 
 
 }
@@ -53,24 +57,19 @@ h1{
     text-align: center;
     position: relative;
     font-family: 'Montserrat';
-    font-size: x-large;
+    font-size: calc(24*var(--res));
     background-color: #ffffff85;
 
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
      rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 
 
-    border: solid;
-    box-sizing: 10px 10px 10px 10px;
-    border-radius: 45px;
+
 
 
 
 }
 
-img{
-    border-radius: 45px;
-}
 
 
 h2{
@@ -89,19 +88,26 @@ footer{
 
 
 .gradient-background {
-    background: linear-gradient(216deg,#001d4a,#006992,#231a21,#0d6e64,#ffffff);
-    background-size: 300% 300%;
-    animation: gradient-animation 50s ease infinite;
+  background: linear-gradient(300deg,white,#006992);
+  background-size: 120% 120%;
+  animation: gradient-animation 20s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
   }
-  
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+  50% {
+    background-position: 100% 50%;
   }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+img{
+  position:relative;
+  margin-top: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+}
