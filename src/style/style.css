@@ -20,7 +20,7 @@ header{
   position: fixed;
 }
 .image{
-  color:black;
+  color:white;
   background-color:white;
   background-image:url(src/Images/imageback.jpg);
   margin:0;
@@ -28,4 +28,14 @@ header{
   background-repeat:no-repeat;
   background-position: top center;
   min-height: 500px;
+}
+.navbar{
+  background-color: #001D4A;
+
+}
+.nav-link1{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 0px 2em 0px 2em
 }
