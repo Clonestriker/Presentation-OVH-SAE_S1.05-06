@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap%27');
 
+.titlePage{
+    padding-top: 2em;
+    text-align: center;
+    justify-content: center;
+}
+
 
 
 .navbar{
@@ -22,7 +28,7 @@
 }
 
 
-.align p{
+.align {
     display: flex;
     align-items: center;
     align-content: center;
@@ -31,9 +37,16 @@
     padding-left: 2em;
     padding-right: 2em;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    width: 768px;
-    height: 480px;
+    min-width: 600px;
+    max-width: 800px;
+    min-height: 400px;
+    max-height: 600px;
+}
 
+
+.align h1{
+    font-family: "Montserrat";
+    padding-right: 1em;
 }
 
 li a::after{
@@ -53,7 +66,7 @@ li a:hover::after{
 
 [class*="reveal-"] /*Toute les classes qui commence par reveal-*/{
     opacity: 0;
-    transform: translateY(100px);
+    transform: translateY(50px);
 }
 .reveal-visible{
     opacity: 1;
