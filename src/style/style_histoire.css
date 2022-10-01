@@ -52,10 +52,10 @@ footer{
 
 
 #titre_page{
+    padding-top: 2em;
     text-align: center;
+    justify-content: center;
     padding-top: 5%;
-    font-family: 'Montserrat';
-    font-size: 10em;
     color: #231A21;
     
  
@@ -125,12 +125,10 @@ body{
 /*################# IMAGE #################*/
 
 .image_responsive{
-  max-width: 1000px;
-  min-width: 750px;
-  min-height: 500px;
-  width: auto;
-  height: 100%;
-
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .image_radius_left{
@@ -147,14 +145,18 @@ body{
 
 .paragraphe{
     
-    display: flex;
-    text-align: center;
-    position: relative;
-    font-family: 'Montserrat';
-    font-size: calc(24*var(--res));
-    background-color: #ffffff85;
+    
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: justify;
+  font-family: "Montserrat";
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: calc(24*var(--res));
+  background-color: #ffffff85;
 
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
      rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 
 
