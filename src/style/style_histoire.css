@@ -51,7 +51,7 @@ footer{
 /*################# TITRE #################*/
 
 
-#titre_page{
+.titre_page{
     padding-top: 2em;
     text-align: center;
     justify-content: center;
@@ -153,7 +153,6 @@ body{
   font-family: "Montserrat";
   text-align: center;
   font-family: 'Montserrat';
-  font-size: calc(24*var(--res));
   background-color: #ffffff85;
 
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
@@ -209,5 +208,39 @@ body{
 #icone {
   width: 50px;
 }
+
+/*##################################*/
+
+
+
+
+
+/*################# SLIDER #################*/
+
+
+#slider--text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+
+.fade-in {
+  animation: fade 6s;
+}
+
+@keyframes fade {
+  0% {
+      opacity: 0;
+      transform: rotate3d(2, 2, 0, 48deg);
+  }
+  20% {
+      opacity: 1;
+      transform: rotate3d(0, 0, 0, 24deg);
+  }
+}
+
 
 /*##################################*/
