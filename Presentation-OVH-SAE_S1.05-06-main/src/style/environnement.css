@@ -1,0 +1,57 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: #001D4A;
+
+}
+.nav-link1{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 2em 0px 2em
+}
+
+
+
+
+h1{
+    color: darkblue;
+    border: 1px solid darkblue;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: blue;
+    text-decoration-line: underline;
+}
+
+h3{
+    color: lightblue;
+    text-decoration-line: underline;
+}
+
+.paragraphe_gauche{
+
+    text-align: center;
+
+
+    border: solid;
+    box-sizing: 10px 10px 10px 10px;
+    margin-right: 40%;
+    margin-left: 10%;
+}
+
+.paragraphe_droite{
+
+    text-align: center;
+
+
+    border: solid;
+    box-sizing: 10px 10px 10px 10px;
+    margin-right: 10%;
+    margin-left: 40%;
+
+}
