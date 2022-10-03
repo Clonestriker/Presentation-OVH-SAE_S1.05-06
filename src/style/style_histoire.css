@@ -1,5 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+/*################# BARRE DE NAVIGATION #################*/
+
 .navbar{
     background-color: #001D4A;
 
@@ -11,17 +15,48 @@
     padding: 0px 2em 0px 2em
 }
 
+/*##################################*/
+
+
+
+
+/*################# GENERIQUE #################*/
+
+
+
 html{
 
   --res: calc(0.01*10vmin)
 
 
 }
-#titre_page{
+
+h2{
+  font-family: 'Montserrat';
+  font-size: xx-large;
+  text-align: center;
+}
+
+footer{
+  margin-top: 15%;
+  text-align: center;
+  background-color: #001D4A;
+  color: white;
+  
+}
+
+/*##################################*/
+
+
+/*################# TITRE #################*/
+
+
+.titre_page{
+    padding-top: 2em;
     text-align: center;
+    justify-content: center;
     padding-top: 5%;
-    font-family: 'Montserrat';
-    font-size: 10em;
+    color: #231A21;
     
  
     
@@ -49,12 +84,30 @@ html{
   -22px 44px 1px #cfcdcd, -23px 46px 1px #d4d2d1,
   -24px 48px 1px #d8d6d5;
   */
-  color: black;
+  
 
 
 
 }
 
+
+/*##################################*/
+
+
+
+
+/*################# FOND EN DEGRADEE #################*/
+
+body{
+  background: rgb(218,236,243);
+  background: linear-gradient(90deg, rgba(218,236,243,1) 0%, rgba(245,252,255,1) 30%, rgba(245,252,255,1) 67%, rgba(255,255,255,1) 84%);
+}
+
+
+/*##################################*/
+
+
+/*################# DEGRADEE TEXTE #################*/
 .text-gradient{
   background: #006992;
   background: -webkit-linear-gradient(to right, #006992 0%, #001D4A 97%);
@@ -65,13 +118,17 @@ html{
   
 }
 
-.image_responsive{
-  max-width: 1000px;
-  min-width: 750px;
-  min-height: 500px;
-  width: auto;
-  height: 100%;
+/*##################################*/
 
+
+
+/*################# IMAGE #################*/
+
+.image_responsive{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .image_radius_left{
@@ -80,64 +137,110 @@ html{
 
 }
 
-.paragraphe_droite{
+/*##################################*/
 
+
+
+/*################# PARAGRAPHE #################*/
+
+.paragraphe{
     
+    
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: justify;
+  font-family: "Montserrat";
+  text-align: center;
+  font-family: 'Montserrat';
+  background-color: #ffffff85;
+
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+
+
+
+
+
+}
+.droite{
     margin-top: 10%;
     margin-left: 20%;
-    display: flex;
-    text-align: center;
-    position: relative;
-    font-family: 'Montserrat';
-    font-size: calc(24*var(--res));
-    background-color: #ffffff85;
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
-     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-
-     border-top-left-radius: 15px;
-     border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 
 
 
 }
 
-.paragraphe_gauche{
+.gauche{
+    
     margin-top: 10%;
     margin-right: 20%;
-    display: flex;
-    text-align: center;
-    position: relative;
-    font-family: 'Montserrat';
-    font-size: calc(24*var(--res));
-    background-color: #ffffff85;
-
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
-     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-
-
-     border-top-right-radius: 15px;
-     border-bottom-right-radius: 15px;
-
-
-
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 
 
 
 }
 
 
+/*##################################*/
 
-h2{
-    font-family: 'Montserrat';
-    font-size: xx-large;
-    text-align: center;
+
+/*################# BOUTON FLECHE #################*/
+
+#btn {
+  z-index: 1;
+  height: 100px;
+  width: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  opacity: 30%;
+}
+#icone {
+  width: 50px;
 }
 
-footer{
-    margin-top: 15%;
-    text-align: center;
-    background-color: #001D4A;
-    color: white;
-    
+/*##################################*/
+
+
+
+
+
+/*################# SLIDER #################*/
+
+
+#slider--text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
+
+
+.fade-in {
+  animation: fade 6s;
+}
+
+@keyframes fade {
+  0% {
+      opacity: 0;
+      transform: rotate3d(2, 2, 0, 48deg);
+  }
+  20% {
+      opacity: 1;
+      transform: rotate3d(0, 0, 0, 24deg);
+  }
+}
+
+
+/*##################################*/
