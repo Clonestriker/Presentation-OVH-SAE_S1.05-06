@@ -12,3 +12,9 @@ Lenny GRANDJEAN lenny.grandjean@edu.univ-fcomte.fr
 Mathias NOTTER  mathias.notter@edu.univ-fcomte.fr
 
 Alban SCHOENFELDER  alban.schoenfelder@edu.univ-fcomte.fr
+
+## Ecran de zoning de l'accueil
+![ecran de zoning] {doc/ZoningAccueil.png}
+
+## Ecran prototype de l'acceuil
+![ecran prototype] {doc/WireframeAccueil.png}
