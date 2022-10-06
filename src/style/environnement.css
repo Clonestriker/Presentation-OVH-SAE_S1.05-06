@@ -223,7 +223,7 @@ footer{
 /*################# BOUTON FLECHE #################*/
 
 #btn {
-    z-index: 1;
+    z-index: 99;
     height: 100px;
     width: 100px;
   
@@ -232,7 +232,7 @@ footer{
     align-items: center;
     position: fixed;
     right: 20px;
-    bottom: 20px;
+    bottom: 40px;
     cursor: pointer;
     opacity: 30%;
   }
