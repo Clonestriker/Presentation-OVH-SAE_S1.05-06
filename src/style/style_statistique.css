@@ -1,59 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap%27');
 
+
+
 .titlePage{
     font-size: 50px;
-    padding: 50px 0px 50px 0px ;
+    padding: 2em 0em 2em 0em ;
     color: white;
     text-align: center;
     justify-content: center;
     vertical-align: center;
-    background-color: #001D4A;
+    background-color: #0D6E64;
     font-family: "Montserrat";
     margin-left: 40px;
     margin-right: 40px;
     border-radius: 30px;
     box-shadow: 3px 10px 26px -11px #5C5C5C;
 }
-body{
-    margin: 0;
-    padding: 0;
-}
 
-.navbar{
-    margin: 0;
-    display: flex;
-    background-color: #001D4A ;
-    justify-content: space-between;
-}
 
-.navbar-nav{
+
+
+
+
+
+.image-data-right{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: right; /*alignement horizontal*/
 
+    padding: 20px 50px 20px 0px;
+    background-color: #F0F3F4;
 }
-
-.nav-link1{
-    text-decoration: none;
-    font-family: "Montserrat";
-    color: white;
-    margin-left: 2em;
-    margin-right: 2em;
-    }
-
-
-
-
-
-
-.image-data-center{
+.image-data-left{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center; /*alignement horizontal*/
+    justify-content: left; /*alignement horizontal*/
     margin-top: 10em;
-    margin-right: 50px;
+    padding: 20px 0px 20px 50px;
+    background-color: #F0F3F4;
 }
 
 
@@ -78,21 +64,7 @@ body{
     padding-right: 1em;
 }
 
-.nav-item::after{
-    content:"";
-    display: block;
-    position: relative;
-    align-items: center;
-    width: auto;
-    height: 2px;
-    background-color: white;
-    transform: scale(0);
-    transition: transform 0.2s ease-in-out
-}
 
-.nav-item:hover::after{
-    transform: scale(1);
-}
 
 [class*="reveal-"] /*Toute les classes qui commence par reveal-*/{
     opacity: 0;
@@ -112,4 +84,8 @@ body{
 }
 .reveal-3{
     transition-delay: .3s;
+}
+
+.image{
+     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }

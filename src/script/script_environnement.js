@@ -1,38 +1,38 @@
-// const ratio = .1
+// const navigation = document.querySelector('nav');
 
+// window.addEventListener('scroll', () => {
 
-// const options = {
-//     root: null,
-//     rootMargin: '0px',
-//     threshold: ratio
+// if(window.scrollY > 930){
+//     navigation.classList.add('anim-nav');
+// } else {
+//     navigation.classList.remove('anim-nav');
 // }
 
-// const handleIntersect = function(entries, observer){
-    
-//     entries.forEach(function(entry){
-//         if (entry.intersectionRatio > ratio){
-//             console.log('handleIntersect')
-//             entry.target.classList.add('reveal-visible')
-//             observer.unobserve(entry.target)
-            
-//         }
-//     })
-// }
-
-
-// const observer = new IntersectionObserver(handleIntersect, options)
-// document.querySelectorAll('[class*="reveal-"]').forEach(function(r){
-//     observer.observe(r)
 // })
 
-const navigation = document.querySelector('nav');
+const allRonds = document.querySelectorAll('.rond');
+const allBoxes = document.querySelectorAll('.box');
 
-window.addEventListener('scroll', () => {
+const controller = new ScrollMagic.Controller()
 
-if(window.scrollY > 930){
-    navigation.classList.add('anim-nav');
-} else {
-    navigation.classList.remove('anim-nav');
-}
+allBoxes.forEach(box => {
+
+    for(i = 0; i < allRonds.length; i++){
+
+        if(allRonds[i].getAttribute('data-anim') === box.getAttribute('data-anim')){
+
+            let tween = gsap.from(box, {y: -50, opacity: 0, duration: 0.5})
+
+            let scene = new ScrollMagic.Scene({
+                triggerElement: allRonds[i],
+                reverse: true
+            })
+            .setTween(tween)
+            // .addIndicators()
+            .addTo(controller)
+
+        }
+
+    }
 
 })
