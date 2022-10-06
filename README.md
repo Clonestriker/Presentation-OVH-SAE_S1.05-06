@@ -18,4 +18,13 @@ Alban SCHOENFELDER  alban.schoenfelder@edu.univ-fcomte.fr
      alt="Markdown zoning accueil"/>
 
 ## Ecran prototype de l'acceuil
-![ecran prototype] {doc/WireframeAccueil.png}
+<img src="doc/WireframeAccueil.png"
+     alt="Markdown prototype accueil" />
+     
+ ## Page zoning 
+ <img src="doc/ZoningPage.png"
+     alt="Markdown zoning page"/>
+ 
+ ## Page prototype
+ <img src="doc/WireframePage.png"
+     alt="Markdown prototype page" />
