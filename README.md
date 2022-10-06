@@ -33,5 +33,5 @@ Nous avons décidé de présenter l'entreprise OVHcloud leader européen du clou
      
 Nous avons choisi une barre de menus épuré en haut de la page toujours accessible grâce à un bouton "retour en haut" situé en bas a droite de la page.
 L'image en fond et l'animation donne un air moderne a la page d'accueil. La description indique clairement ce que fait l'entreprise. Il peut ensuite scroller pour en savoir plus et les boutons permettent aux visiteurs d'explorer nos differentes pages s'il le souhaite. Les boutons en bas de page permettent aussi au visiteur de partir directement sur la page qu'il souhaite sans avoir à remonter sur la barre de menus. 
-Nos pages sont conçues de blocs à droite et à gauche contenant une image et d'un texte. L'image est là pour illusrter et clarifier le texte. Cela aide à la compréhension et permet aussi de réduire le texte.
+Nos pages sont conçues de blocs à droite et à gauche contenant une image et d'un texte. L'image est là pour illustrer et clarifier le texte. Cela aide à la compréhension et permet aussi de réduire le texte.
 Le footer est un simple résumé de qui a fait le site et des liens vers le site et les réseaux officiels de l'entreprise OVH.
