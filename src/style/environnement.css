@@ -11,20 +11,10 @@ html{
     --res: calc(0.01*10vmin)
 }
 
-/*################# BARRE DE NAVIGATION #################*/
-
-.navbar{
-    background-color: #001D4A;
-
+body{
+    background: rgb(218,236,243);
+    background: linear-gradient(90deg, rgba(218,236,243,1) 0%, rgba(245,252,255,1) 30%, rgba(245,252,255,1) 67%, rgba(255,255,255,1) 84%);
 }
-.nav-link1{
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    padding: 0px 2em 0px 2em
-}
-
-/*##################################*/
 
 /*################# IMAGE #################*/
 
