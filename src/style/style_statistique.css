@@ -1,22 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap%27');
 
 .titlePage{
-    padding-top: 2em;
+    font-size: 50px;
+    padding: 50px 0px 50px 0px ;
+    color: white;
     text-align: center;
     justify-content: center;
+    vertical-align: center;
+    background-color: #001D4A;
+    font-family: "Montserrat";
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 30px;
+    box-shadow: 3px 10px 26px -11px #5C5C5C;
 }
-
-
+body{
+    margin: 0;
+    padding: 0;
+}
 
 .navbar{
-    background-color: #001D4A;
+    margin: 0;
+    display: flex;
+    background-color: #001D4A ;
+    justify-content: space-between;
 }
+
+.navbar-nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .nav-link1{
-    color: white;
     text-decoration: none;
-    text-align: center;
-    padding: 0px 2em 0px 2em
-}
+    font-family: "Montserrat";
+    color: white;
+    margin-left: 2em;
+    margin-right: 2em;
+    }
+
+
+
+
+
 
 .image-data-center{
     display: flex;
@@ -24,7 +53,7 @@
     align-items: center;
     justify-content: center; /*alignement horizontal*/
     margin-top: 10em;
-
+    margin-right: 50px;
 }
 
 
@@ -38,7 +67,7 @@
     padding-right: 2em;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     min-width: 600px;
-    max-width: 800px;
+    max-width: 600px;
     min-height: 400px;
     max-height: 600px;
 }
@@ -49,18 +78,19 @@
     padding-right: 1em;
 }
 
-li a::after{
+.nav-item::after{
     content:"";
     display: block;
-    position: absolute;
-    width: 100%;
+    position: relative;
+    align-items: center;
+    width: auto;
     height: 2px;
     background-color: white;
     transform: scale(0);
     transition: transform 0.2s ease-in-out
 }
 
-li a:hover::after{
+.nav-item:hover::after{
     transform: scale(1);
 }
 
