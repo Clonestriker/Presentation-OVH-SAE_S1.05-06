@@ -14,7 +14,8 @@ Mathias NOTTER  mathias.notter@edu.univ-fcomte.fr
 Alban SCHOENFELDER  alban.schoenfelder@edu.univ-fcomte.fr
 
 ## Ecran de zoning de l'accueil
-![ecran de zoning] {doc/ZoningAccueil.png}
+<img src="doc/ZoningAccueil.png"
+     alt="Markdown zoning accueil"/>
 
 ## Ecran prototype de l'acceuil
 ![ecran prototype] {doc/WireframeAccueil.png}
