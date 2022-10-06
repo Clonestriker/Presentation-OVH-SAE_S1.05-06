@@ -6,36 +6,31 @@
     <link rel="icon" type="image/x-icon" href="src/Images/Logo.ico" >
     <link rel="stylesheet" href="src/bootstrap/css/bootstrap.css">
 		<script src="/src/script/script.js." defer></script>
+    <link rel="stylesheet" href="src/style/nav_bar.css">
+    <link rel="stylesheet" href="src/style/">
         <title>OVH - Accueil </title>
 	</head>
 
-  <header>
-
-    <nav class="navbar sticky-top navbar-expand-lg">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <img src="src/Images/Logo.png" alt="" width="60px " height="50px">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link1 active" aria-current="page" href="index.html">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link1" href="src/pages/environnement.html">Environnement</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link1" href="src/pages/histoire.html">Histoire</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link1" href="src/pages/service.html">Service</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link1" href="src/pages/statistique.html">Statistique</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-  </header>
+    <nav class="navbar">
+        <img src="src/Images/Logo.ico" alt="" width="65px " height="50px">
+          <div class="navbar-nav">
+            <div class="nav-item">
+              <a class="nav-link1" aria-current="page" href="index.html">Accueil</a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link1" href="src/pages/environnement.html">Environnement</a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link1" href="src/pages/histoire.html" target="blank">Histoire</a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link1" href="src/pages/service.html">Services</a>
+            </div>
+            <div class="nav-item">
+              <a class="nav-link1" href="src/pages/statistique.html">Statistique</a>
+            </div>
+          </div>    
+    </nav>
 
     <body>
       <div class="boite">
@@ -53,6 +48,7 @@
         </div>
       </div>
         <br>
+      <div class="box">
         <p class="text">
             Ils proposent également à leurs clientes et clients l’enregistrement de noms de 
             domaine, de la téléphonie, ainsi que de l’accès à Internet. Créé en 1999, OVHcloud 
@@ -71,21 +67,24 @@
             actif, dans lequel l’ensemble des actrices et acteurs contribuent au succès de leurs
             services en mettant à profit leur expertise. Ils répondent ainsi aux attentes de 
             leur communauté, tout en partageant des valeurs communes.
+            Cette ambition, nous la traduisons dans chacune de nos solutions. Nous créons alors 
+            un univers de confiance permettant à toutes et tous d’innover.
         </p>
+      </div>
         <br>
         <h2>Pour nous decouvrir :</h2>
         <div class="container container-flex flex-wrap align-content-center justify-content-space-evenly" style="height: 500px">
           <div class="item item-width item-height-small">
-            <a class="nav-link1" href="src/pages/environnement.html">Environnement</a>
+            <a href="src/pages/environnement.html"><img src="src/Images/foret.jpg" width="230px" height="100px" /> engagemment environnemental</a>
           </div>
           <div class="item item-width item-height-small">
-            <a class="nav-link1" href="src/pages/histoire.html">Histoire</a>
+            <a href="src/pages/histoire.html"><img src="src/Images/livre.jpg" width="230px" height="100px" />Notre histoire</a>
           </div>
           <div class="item item-width item-height-small">
-            <a class="nav-link1" href="src/pages/service.html">Service</a>
+            <a href="src/pages/service.html"><img src="src/Images/serveur.jpg" width="230px" height="100px" />Les services proposés</a>
           </div>
           <div class="item item-width item-height-small">
-            <a class="nav-link1" href="src/pages/statistique.html">Statistique</a>
+            <a href="src/pages/statistique.html"><img src="src/Images/graphique-ascendant.jpg" width="235px" height="100px" />Nos chiffres</a>
           </div>
         </div>
     </body>
