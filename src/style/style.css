@@ -150,7 +150,7 @@ h2{
 /*################# BOUTON FLECHE #################*/
 
 #btn {
-  z-index: 1;
+  z-index: 99;
   height: 100px;
   width: 100px;
 
@@ -159,7 +159,7 @@ h2{
   align-items: center;
   position: fixed;
   right: 20px;
-  bottom: 20px;
+  bottom: 80px;
   cursor: pointer;
   opacity: 30%;
 }
