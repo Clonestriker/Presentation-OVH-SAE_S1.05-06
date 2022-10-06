@@ -31,7 +31,7 @@ body{
   background-repeat:no-repeat;
   background-size: cover;
   background-position: top center;
-  min-height: 900px;
+  min-height: 905px;
   position: relative;
 }
 
@@ -79,7 +79,7 @@ img .logo {
 }
 
 .boxtext:nth-child(1) span::after {
-  background: #0d6e64;
+  background: #001D4A;
   animation: slide-in 2s ease-out forwards,
   slide-out 2s 2s ease-out forwards;
 }
@@ -104,19 +104,35 @@ img .logo {
   display: flex;
   justify-content: center;
   padding: 200px 50px 200px 50px;
+  text-align: center;
+  background-color: #F0F3F4;
 }
 
-.text{
-  line-height: 1;
+.text1{
   font-size: 20px;
   text-align: justify;
-  padding: 0px 25px 0px 25px;
+  padding: 5.2em 2em 1em 2em;
+  margin-right: 5em;
+  width: 40%;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.text2{
+  font-size: 20px;
+  text-align: justify;
+  padding: 1em 2em 1em 2em;
+  width: 40%;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
 }
 
 .Title2{
   text-align: center;
-  font-size: 5em;
-  background-color: #7c7c7cb3;
+  font-size: 28px;
+  color: white;
+  padding-top: 1.5em;
+  margin: 0em 6.85em 0em 6.85em;
+  background-color: #001D4A;
 }
 
 .item{
@@ -156,11 +172,13 @@ img .logo {
 
 
 .container-decouvrir{
-  margin: 0em 2em 0em 2em;
+  padding: 2em 2em 2em 2em;
+  margin: 0em 12em 0em 12em;
   display: flex;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   margin-bottom: 50px;
+  background-color: #001D4A;
 }
 
 
@@ -169,16 +187,33 @@ img .logo {
   display: flex;
   flex-direction: column ;
   text-align: center;
+  
+}
+.container-item a{
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat";
 }
 
 
-figure #zoom-In img{
+/*################# Sous-lignement qui bouge #################*/
+.container-item::after{
+  content:"";
+  display: block;
+  position: relative;
+  align-items: center;
+  width: auto;
+  height: 2px;
+  background-color: white;
+  transform: scale(0);
+  transition: transform 0.2s ease-in-out
+}
+  
+.container-item:hover::after{
   transform: scale(1);
-  transition: 0.3s ease-in-out;
 }
-figure #zoom-In:hover img{
-  transform: scale(1.5);
-}
+
+
 
 /*################# BOUTON FLECHE #################*/
 
