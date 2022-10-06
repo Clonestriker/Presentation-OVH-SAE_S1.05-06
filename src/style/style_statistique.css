@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap%27');
 
+
+
 .titlePage{
     font-size: 50px;
-    padding: 50px 0px 50px 0px ;
+    padding: 2em 0em 2em 0em ;
     color: white;
     text-align: center;
     justify-content: center;
     vertical-align: center;
-    background-color: #001D4A;
+    background-color: #0D6E64;
     font-family: "Montserrat";
     margin-left: 40px;
     margin-right: 40px;
@@ -26,8 +28,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: right; /*alignement horizontal*/
-    margin-top: 10em;
-    margin-top: 10em;
+
     padding: 20px 50px 20px 0px;
     background-color: #F0F3F4;
 }
