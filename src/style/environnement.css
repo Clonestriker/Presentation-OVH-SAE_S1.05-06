@@ -106,6 +106,16 @@ h2{
     border-bottom-right-radius: 15px;
 }
 
+.text-gradient{
+background: #006992;
+background: -webkit-linear-gradient(to right, #006992 0%, #001D4A 97%);
+background: -moz-linear-gradient(to right, #006992 0%, #001D4A 97%);
+background: linear-gradient(to right, #006992 0%, #001D4A 97%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
 footer{
     margin-top: 15%;
     text-align: center;
