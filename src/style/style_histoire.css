@@ -189,7 +189,7 @@ background: linear-gradient(90deg, rgba(0,105,146,0.35) 0%, rgba(0,105,146,0.3) 
   align-items: center;
   position: fixed;
   right: 20px;
-  bottom: 40px;
+  bottom: 80px;
   cursor: pointer;
   opacity: 30%;
 }
