@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    margin: 0;
+    display: flex;
+    background-color: #001D4A ;
+    justify-content: space-between;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-link1{
+    text-decoration: none;
+    font-family: "Montserrat";
+    color: white;
+    margin-left: 2em;
+    margin-right: 2em;
+    }
+
+.nav-item::after{
+    content:"";
+    display: block;
+    position: relative;
+    align-items: center;
+    width: auto;
+    height: 2px;
+    background-color: white;
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out
+}
+    
+.nav-item:hover::after{
+    transform: scale(1);
+}

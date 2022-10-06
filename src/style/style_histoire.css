@@ -136,6 +136,11 @@ body{
   border-bottom-left-radius: 15px;
 
 }
+.image_radius_right{
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+}
 
 /*##################################*/
 

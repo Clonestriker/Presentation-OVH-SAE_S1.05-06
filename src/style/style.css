@@ -29,6 +29,7 @@ h1{
   text-align: center;
   }
 
+
 .image{
   color:white;
   background-color:white;
@@ -38,7 +39,7 @@ h1{
   background-repeat:no-repeat;
   background-size: cover;
   background-position: top center;
-  min-height: 500px;
+  min-height: 900px;
   position: relative;
 }
 
@@ -86,3 +87,19 @@ h1{
   animation: float 6s ease-in-out infinite;
 }
 
+.toptext{
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -3px;
+  text-shadow: 3px 3px rgb(0 0 0 / 73%);
+  padding: 20px;
+  padding-top: 400px;
+
+}
+
+.text{
+  padding: 20px;
+  line-height: 1;
+  font-size: 20px;
+}
