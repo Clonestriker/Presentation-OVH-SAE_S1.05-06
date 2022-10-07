@@ -1,9 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-.navbar{
-    background-color: #001D4A;
-
-}
 
 *, ::before, ::after {
   box-sizing: border-box;
@@ -11,38 +7,17 @@
   padding: 0;
 }
 
-body{
-  font-family: "Montserrat";
-}
-
-.container {
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 100px 20px 0;
-}
 
 
-.image{
-  color:white;
-  background-color:white;
-  background-image:url(src/Images/imageback.jpg);
-  margin:0;
-  background-attachment: fixed;
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-position: top center;
-  min-height: 905px;
-  position: relative;
+.image-logo{
+  padding-top: 50px;
+  text-align: center;
 }
 
 
 
 
-img .logo {
-  margin-left: auto;
-  margin-right: auto;
-}
-
+/*##################### Animation Titre 1#####################*/
 .boxtext {
   font-size: 35px;
   font-weight: 700;
@@ -64,6 +39,7 @@ img .logo {
   position: relative;
   overflow: hidden;
 }
+
 .boxtext span::after {
   content: "";
   display: block;
@@ -74,6 +50,7 @@ img .logo {
   left: 0;
   transform: translateX(-100%);
 }
+
 .boxtext:nth-child(1) {
   animation: txt-appearance 0s 2s forwards;
 }
@@ -89,114 +66,113 @@ img .logo {
       transform: translateX(0%);
   }
 }
+
 @keyframes slide-out {
   100% {
       transform: translateX(100%)
   }
 }
+
 @keyframes txt-appearance {
   100% {
       opacity: 100; ;
   }
 }
 
+/*##########################################*/
+
+
+
+body{
+  font-family: "Montserrat";
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 100px 20px 0;
+}
+
+
+.image{
+  color:white;
+  background-color:white;
+  background-image:url(src/Images/imageback.jpg);
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: top center;
+  min-height: 905px;
+  position: relative;
+}
+
 .box{
   display: flex;
   justify-content: center;
-  padding: 200px 50px 200px 50px;
   text-align: center;
   background-color: #F0F3F4;
+  padding: 12.5em 3em 12.5em 3em;
+  
 }
 
+
+
+/*###################### Texte de l'accueil ####################*/
+
 .text1{
+  width: 40%;
   font-size: 20px;
   text-align: justify;
   padding: 5.2em 2em 1em 2em;
   margin-right: 5em;
-  width: 40%;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .text2{
+  width: 40%;
   font-size: 20px;
   text-align: justify;
   padding: 1em 2em 1em 2em;
-  width: 40%;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 
 }
 
+
+
+/*###################### A découvrir ####################*/
 .Title2{
   text-align: center;
   font-size: 28px;
+  background-color: #001D4A;
   color: white;
   padding-top: 1.5em;
   margin: 0em 6.85em 0em 6.85em;
-  background-color: #001D4A;
 }
-
-.item{
-  box-shadow: 0px 5px 15px 0px;
-  margin-bottom: 30px;
-  outline: none;
-  text-decoration: none;
-  display: inline-block;
-  width: 19.5%;
-  margin-right: 0.625%;
-  text-align: center;
-  line-height: 3;
-  color: black;
-}
-
-
-.item:link, .item:visited, .item:focus {
-  background: royalblue;
-}
-
-.item:hover {
-  background: #0d6e64;
-}
-
-.item:active {
-  background: #001D4A;
-  color: white;
-}
-
-
-
-.image-logo{
-  padding-top: 50px;
-  text-align: center;
-}
-
-
 
 .container-decouvrir{
-  padding: 2em 2em 2em 2em;
-  margin: 0em 12em 0em 12em;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 50px;
   background-color: #001D4A;
+  padding: 2em 2em 2em 2em;
+  margin: 0em 12em 0em 12em;
+  margin-bottom: 50px;
 }
-
-
 
 .container-item{
   display: flex;
   flex-direction: column ;
   text-align: center;
-  
 }
+
 .container-item a{
-  color: white;
-  text-decoration: none;
   font-family: "Montserrat";
+  text-decoration: none;
+  color: white;
 }
 
 
-/*################# Sous-lignement qui bouge #################*/
+/*################# Soulignement à découvrir #################*/
 .container-item::after{
   content:"";
   display: block;
@@ -221,7 +197,6 @@ img .logo {
   z-index: 99;
   height: 100px;
   width: 100px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -231,6 +206,7 @@ img .logo {
   cursor: pointer;
   opacity: 30%;
 }
+
 #icone {
   width: 50px;
 }
