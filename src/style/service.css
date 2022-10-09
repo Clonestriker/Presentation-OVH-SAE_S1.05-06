@@ -2,6 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
+.titre_page{
+    text-align: center;
+    position: relative;
+    font-size: 14vw;
+    color: rgb(177, 199, 207);
+    -webkit-text-stroke: 0.3vw #001D4A;
+    text-transform: uppercase;
+}
+
+h1::before
+{
+    content: attr(data)
+}
+
+
 .navbar{
     background-color: #001D4A;
 
