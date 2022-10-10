@@ -1,26 +1,38 @@
-
+ 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
 .titre_page{
+    font-size: 120px;
+    line-height: 160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    background: url(../Images/Background_Service.png);
+    -webkit-background-clip: text ;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
     text-align: center;
-    position: relative;
-    font-size: 14vw;
-    color: rgb(177, 199, 207);
-    -webkit-text-stroke: 0.3vw #001D4A;
-    text-transform: uppercase;
+    justify-content: center;
+    vertical-align: center;
+    
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 30px;
+    box-shadow: 3px 10px 26px -11px #5C5C5C;
 }
 
-h1::before
-{
-    content: attr(data)
+
+
+@keyframes back  {
+    100%{
+        background-position: 2000px 0;
+    }
+    
 }
 
 
-.navbar{
-    background-color: #001D4A;
-
-}
 .nav-link1{
     color: white;
     text-decoration: none;
