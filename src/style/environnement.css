@@ -67,6 +67,18 @@ body{
 
 /*################# IMAGE #################*/
 
+#Chaine{
+  width : 800px;
+  height : 500px;
+}
+
+#Stamp{
+  width : 800px;
+  height : 500px;
+}
+
+#Environnement
+
 .image_responsive{
   display: flex;
   flex-wrap: wrap;
@@ -87,6 +99,12 @@ body{
 /*##################################*/
 
 /*################# PARAGRAPHE #################*/
+
+.test{
+  display: flex;
+  /* text-indent: 25px; */
+  line-height: 2;
+}
 
 .paragraphe{
     
