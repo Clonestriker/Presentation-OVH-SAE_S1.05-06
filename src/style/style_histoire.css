@@ -37,26 +37,24 @@ footer{
 
 /*################# TITRE #################*/
 
+.banner-title {
+  font-size: 4em;
+  font-family: arial;
+  background-color: #001d4a;
+  background-image: linear-gradient(45deg, #001d4a 0%, #006992 17%, #0d6e64 74%);
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+}
 
-.titre_page{
-
-  font-size: 50px;
-  padding: 1em 0em 1em 0em ;
-  color: white;
-  text-align: center;
+.banner {
+  width: 100%;
+  display: flex;
   justify-content: center;
-  vertical-align: center;
-  background-color: #0D6E64;
-  font-family: "Montserrat";
-  margin-top: 30px;
-  margin-left: 40px;
-  margin-right: 40px;
-  border-radius: 30px;
-  box-shadow: 3px 10px 26px -11px #5C5C5C;
-
-    
- 
-    
+  align-items: center;
+  height: 200px;
 }
 
 
@@ -177,39 +175,5 @@ background: linear-gradient(90deg, rgba(0,105,146,0.35) 0%, rgba(0,105,146,0.3) 
 #icone {
   width: 50px;
 }
-
-/*##################################*/
-
-
-
-
-
-/*################# SLIDER #################*/
-
-
-#slider--text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-
-
-.fade-in {
-  animation: fade 6s;
-}
-
-@keyframes fade {
-  0% {
-      opacity: 0;
-      transform: rotate3d(2, 2, 0, 48deg);
-  }
-  20% {
-      opacity: 1;
-      transform: rotate3d(0, 0, 0, 24deg);
-  }
-}
-
 
 /*##################################*/
