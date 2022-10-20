@@ -17,19 +17,19 @@ Nous avons décidé de présenter l'entreprise OVHcloud leader européen du clou
 
 ## Ecran de zoning de l'accueil
 <img src="doc/ZoningAccueil.png"
-     alt="Markdown zoning accueil" width="200" />
+     alt="Markdown zoning accueil" width="500" />
 
 ## Ecran prototype de l'acceuil
 <img src="doc/WireframeAccueil.png"
-     alt="Markdown prototype accueil" />
+     alt="Markdown prototype accueil" width="500" />
       
  ## Page zoning 
  <img src="doc/ZoningPage.png"
-     alt="Markdown zoning page"/>
+     alt="Markdown zoning page" width="500" />
  
  ## Page prototype
  <img src="doc/WireframePage.png"
-     alt="Markdown prototype page" />
+     alt="Markdown prototype page" width="500" />
      
 Nous avons choisi une barre de menus épuré en haut de la page toujours accessible grâce à un bouton "retour en haut" situé en bas a droite de la page.
 L'image en fond et l'animation donne un air moderne a la page d'accueil. La description indique clairement ce que fait l'entreprise. Il peut ensuite scroller pour en savoir plus et les boutons permettent aux visiteurs d'explorer nos differentes pages s'il le souhaite. Les boutons en bas de page permettent aussi au visiteur de partir directement sur la page qu'il souhaite sans avoir à remonter sur la barre de menus. 
