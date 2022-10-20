@@ -1,198 +1,241 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="../style/environnement.css">
-    <link rel="stylesheet" href="../style/nav_bar.css">
-    <link rel="icon" type="image/x-icon" href="../Images/Logo.ico" >
-    <link rel="stylesheet" href="../style/footer.css">
-    <script src="../script/script_environnement.js" defer></script>
-    <script src="../script/scriptBoutonTopPage.js" defer></script>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <!-- ???? -->
-    <title>Présentation de OVH - Environnement</title>
-</head>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../style/environnement.css">
+        <link rel="icon" type="image/x-icon" href="../Images/Logo.ico" >
+        <link rel="stylesheet" href="../style/nav_bar.css">
+        <link rel="stylesheet" href="../style/footer.css">
+        <link rel="stylesheet" href="../style/style_RevealScroll.css">
+        <script src="../script/scriptBoutonTopPage.js" defer></script>
+        <script src="../script/scriptSlider.js" defer></script>
+        <script src="../script/revealOnScroll.js" defer></script>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Présentation de OVH - Environnement</title>
+    </head>
 
-<header>
-    <nav class="navbar">
+    <header>
+        <nav class="navbar">
         <img src="../Images/Logo.png" alt="" width="65px " height="50px">
-          <div class="navbar-nav">
-            <div class="nav-item">
-              <a class="nav-link1" aria-current="page" href="../../index.html">Accueil</a>
-            </div>
-            <div class="nav-item">
-              <a class="nav-link1" href="environnement.html">Environnement</a>
-            </div>
-            <div class="nav-item">
-              <a class="nav-link1" href="histoire.html" target="blank">Histoire</a>
-            </div>
-            <div class="nav-item">
-              <a class="nav-link1" href="service.html">Services</a>
-            </div>
-            <div class="nav-item">
-              <a class="nav-link1" href="statistique.html">Statistique</a>
-            </div>
-          </div>    
-    </nav>
-</header>
+            <div class="navbar-nav">
+                <div class="nav-item">
+                    <a class="nav-link1" aria-current="page" href="../../index.html">Accueil</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link1" href="#" target="blank">Environnement</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link1" href="histoire.html">Histoire</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link1" href="service.html">Services</a>
+                </div>
+                <div class="nav-item">
+                    <a class="nav-link1" href="statistique.html">Statistique</a>
+                </div>
+            </div>    
+        </nav>
+    </header>
 
-<body>
-    <h1 class="titre_page">Les impacts environnementaux d'OVHcloud</h1>
-
-
-    <div id="btn">
-        <img src="../Images/fleche_haut.jpg" id="icone">
-      
-      </div>
-
-
-    <div class=" paragraphe gauche" id="premier">
-        <img class="image_responsive" id="BureauOVH" src="../Images/OVHbureau.jpg" alt="">
-        <div class="texte_gradient">
-            <h2>Gérer notre impact environnemental à chaque niveau</h2>
-            <p>
-                En tant que fournisseur mondial d'infrastructures, nous construisons nos propres serveurs et datacenters.
-                Nous entretenons également des relations solides avec nos partenaires, ainsi qu’avec avec les principales entreprises technologiques de notre écosystème.
-                De cette manière, nous optimisons nos processus d'industrialisation et gérons notre impact environnemental à chaque niveau.
-            </p>
+    <body >
+        <div class="titre_page">
+            <h1 class="reveal-1">Environnement</h1>
         </div>
-    </div>
 
-    <br>
-    <br>
+        <div id="btn">
+            <img src="../Images/fleche_haut.jpg" id="icone">
+        </div>
 
-    <div class=" paragraphe droite" id="deuxieme">
-        <img class="image_responsive image_radius_left" id="octaveKlabaJeune"src="../Images/octave-klaba-jeune.png" alt="">
-        <h2>De 1999-2004 : OVH est une startup à croissance rapide</h2>
-        <p>
-            En 1999, Octave, alors étudiant à l'ICAM de Lille,
-                fonde OVH pour répondre au besoin communautaire d'hébergement Internet.
-                Sa famille avait émigré en France depuis la Pologne,
-                après la chute du mur de Berlin. Innovant par nature, OVH connaît une croissance rapide.
-        </p>
+
+        <div class=" paragraphe gauche reveal-2" id="premier" >
+            <img class="image_responsive image_radius_left" id="Environnement"src="../Images/Environnement.png" alt="">
+            <div>
+                <h2>Engagement environnementale</h2>
+                <br>
+                <p>
+                    OVH est une entreprise très engager sur le plan écologique et ce depuis des années.
+                    Outre les émissions de gaz à effet de serre (GES), nous prenons en compte la gestion de l'énergie,
+                    de l'eau, des déchets et des transports.
+                </p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class=" paragraphe droite reveal-2" id="deuxieme" >
+            <img class="image_responsive image_radius_left" id="Chaine"src="../Images/Chaine.jpg" alt="">
+            <div>
+                <h2>Chaîne d'approvisionnement</h2>
+                <br>
+                <br>
+                <p class="test">
+                    Toute la chaîne est entièrement cadrer et maîtriser.
+                    En effet OVHcloud à très tôt eu l’idée d’être très soucieux de chaque pièce
+                    passant dans leur chaîne leur permettant de réaliser des économies considérables en réutilisant leurs composants jusqu’à 3 fois.
+                    Leurs serveurs sont entièrement démontable avec des composants facilement réutilisés, recyclés et réparés.
+                </p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class=" paragraphe gauche reveal-2" id="troisieme" >
+            <div>
+                <h2>Données actuelles</h2>
+                <br>
+                <p>
+                    Aujourd’hui après une vingtaine d’année dans l’industrie on remarque que OVHcloud
+                    montre le bon exemple avec ses chiffres qu’elles ne cachent pas mais qui les montre volontiers.
+                    On retrouve un PUE (Power Usage Effectiveness) de 1.1 à 1.3, un WUE (Water Usage Effectiveness) de 0.17 à 0.20 L/kWh
+                    et un CUE (Carbon Usage Effectiveness) de 0.15 à 0.18 CO2e/MWh. Ces données peuvent paraître assez abstraite à première vue
+                    mais en moyenne les datacenter francais ont un PUE de 2,5! Face aux chiffres moyen OVHcloud est dans le haut du panier.
+                </p>
+            </div>
+            <img class="image_responsive image_radius_right" id="Données" src="../Images/données_environnemetales.png" alt="">
+        </div>
+        <br>
+        <br>
+        <div class=" paragraphe droite reveal-2" id="quatrieme" >
+            <img class="image_responsive image_radius_left" id="Stamp" src="../Images/Stamp-colored-bg.png" alt="">
+            <div>
+                <h2>Objectif à venir</h2>
+                <br>
+                <p>
+                    -Atteindre l'objectif du zéro déchet en décharge dans nos centres de production d'ici 2025.
+                </p>
+                <br>
+                <p>
+                    -Obtenir des certifications standard, comme ISO 50001 (gestion de l'énergie) et ISO 14001 (gestion de l'environnement).
+                </p>
+                <br>
+                <p>
+                    -Mettre en place un programme de capture du carbone équivalent aux catégories Scope 1 et 2 d'ici à 2025,
+                    puis l’élargir aux catégories Scope 3 d'ici à 2030.
+                </p>
+                <br>
+                <p>
+                    -Permettre à nos clientes et clients d'obtenir des informations en temps réel sur l'impact énergétique de tous nos services cloud,
+                    d'ici 2025.
+                </p>
+                <br>
+                <p>
+                    -Data centres will match their electricity supply through the purchase of clean energy.
+                </p>
+                <br>
+                <p>
+                    -Data centres at full capacity will meet a high standard for water conservation,
+                    demonstrated through the application of a location and source sensitive water usage effectiveness (WUE) target.
+                </p>
+                <br>
+                <!-- <p>
+                    -The reuse of data centre heat presents an opportunity for energy conservation that can fit specific circumstances.
+                    Data centre operators will explore possibilities to interconnect with district heating systems
+                    and other users of heat to determine if opportunities to feed captured heat from new data centres into nearby systems are practical,
+                    environmentally sound and cost effective.
+                </p> -->
+            </div>
+        </div>
+        <br>
+        <br>
+        <!-- <div class=" paragraphe gauche reveal-2" id="" >
+            <img class="image_responsive" src="" alt="">
+            <div>
+                <h2>… vers la neutralité carbone</h2>
+                <p>
+                    En tant que fournisseur mondial d'infrastructures, nous construisons nos propres serveurs et datacenters.
+                    Nous entretenons également des relations solides avec nos partenaires, ainsi qu’avec avec les principales entreprises technologiques de notre écosystème.
+                    De cette manière, nous optimisons nos processus d'industrialisation et gérons notre impact environnemental à chaque niveau.
+                </p>
+
+            </div>
+        </div> -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- <br>
+
+        <h1>Création de Timeline</h1>
         
-        <p >
-            L'entreprise introduit, par exemple, un système novateur de watercooling.
-                Celui-ci offre des avantages commerciaux à nos clientes et clients,
-                tout en réduisant la consommation énergétique dans les datacenters.
-        </p>
-    </div>
+        <div class="box-timeline">
 
-    <br>
-    <br>
-    <div class="paragraphe gauche" id="troisieme">
-        <h2>Réduire nos émissions, une étape cruciale…</h2>
-        <p>
-            En tant que fournisseur mondial d'infrastructures, nous construisons nos propres serveurs et datacenters.
-            Nous entretenons également des relations solides avec nos partenaires, ainsi qu’avec avec les principales entreprises technologiques de notre écosystème.
-            De cette manière, nous optimisons nos processus d'industrialisation et gérons notre impact environnemental à chaque niveau.
-        </p>
-        <p>
-            Notre objectif est de penser et d'agir différemment afin de changer le statu quo.
-            Nos ingénieures et ingénieurs s'efforcent d'inventer les prochaines évolutions du cloud, tout en ayant conscience de l'impact de nos activités.
-            C'est pourquoi nous proposons des solutions non seulement accessibles et abordables, mais aussi économes et à faible émission de carbone.
-            Chaque composant est soigneusement sélectionné,
-            chaque étape de fabrication est minutieusement réalisée et les besoins de notre clientèle sont scrupuleusement pris en compte.
-            Par cette approche, nous mettons en place la prochaine génération de services de la manière la plus durable possible.
-        </p>
-        <p>
-            Nous travaillons en étroite collaboration avec nos partenaires technologiques pour résoudre les problèmes de stabilité,
-            de performance, d'efficacité et de durabilité. Dans le cadre de cet engagement,
-            nous sommes en mesure d’évaluer notre impact environnemental global avec une grande précision. Outre les émissions de gaz à effet de serre (GES),
-            nous prenons en compte la gestion de l'énergie, de l'eau, des déchets et des transports.
-        </p>
-    </div>
+            <div class="ligne"></div>
+        
+            <div class="rond r1" data-anim="1">&#127944;</div>
+            <div class="rond r2" data-anim="2">&#128167;</div>
+            <div class="rond r3" data-anim="3">&#128187;</div>
+            <div class="rond r4" data-anim="4">&#128293;</div>
 
-    <br>
-    <br>
-
-    <div class="paragraphe droite" id="quatrieme">
-        <h2>… vers la neutralité carbone</h2>
-        <p>
-            En tant que fournisseur mondial d'infrastructures, nous construisons nos propres serveurs et datacenters.
-            Nous entretenons également des relations solides avec nos partenaires, ainsi qu’avec avec les principales entreprises technologiques de notre écosystème.
-            De cette manière, nous optimisons nos processus d'industrialisation et gérons notre impact environnemental à chaque niveau.
-        </p>
-        <p>
-            Notre objectif est de penser et d'agir différemment afin de changer le statu quo.
-            Nos ingénieures et ingénieurs s'efforcent d'inventer les prochaines évolutions du cloud, tout en ayant conscience de l'impact de nos activités.
-            C'est pourquoi nous proposons des solutions non seulement accessibles et abordables, mais aussi économes et à faible émission de carbone.
-            Chaque composant est soigneusement sélectionné,
-            chaque étape de fabrication est minutieusement réalisée et les besoins de notre clientèle sont scrupuleusement pris en compte.
-            Par cette approche, nous mettons en place la prochaine génération de services de la manière la plus durable possible.
-        </p>
-        <p>
-            Nous travaillons en étroite collaboration avec nos partenaires technologiques pour résoudre les problèmes de stabilité,
-            de performance, d'efficacité et de durabilité. Dans le cadre de cet engagement,
-            nous sommes en mesure d’évaluer notre impact environnemental global avec une grande précision. Outre les émissions de gaz à effet de serre (GES),
-            nous prenons en compte la gestion de l'énergie, de l'eau, des déchets et des transports.
-        </p>
-    </div>
-
-
-    <h1 class="titre_timeline">Création de Timeline</h1>
-
-    <div class="box-timeline">
-
-        <div class="ligne"></div>
-
-        <div class="rond r1" data-anim="1">&#127944;</div>
-        <div class="rond r2" data-anim="2">&#128167;</div>
-        <div class="rond r3" data-anim="3">&#128187;</div>
-        <div class="rond r4" data-anim="4">&#128293;</div>
+            <div class="box b1 reveal-1" data-anim="1">
+                <h3>2020</h3>
+                <p>
+                    Rack entièrement cliquable (watercooling, réseau électrique)
+                </p>
+            </div>
+            <div class="box b2 reveal-1" data-anim="2">
+                <h3>2019</h3>
+                <p>
+                    3e génération du système de free cooling, pour améliorer l'efficacité du système de watercooling
+                </p>
+            </div>
+            <div class="box b3 reveal-1" data-anim="3">
+                <h3>2012</h3>
+                <p>
+                    Nouveau datacenter au Québec, alimenté par des énergies responsables (hydroélectricité, éoliennes)
+                </p>
+            </div>
+            <div class="box b4 reveal-1" data-anim="4">
+                <h3>2009</h3>
+                <p>
+                    OVHcloud commence à moderniser les serveurs, afin d’améliorer la chaîne d'approvisionnement inverse
+                </p>
+            </div>
+            <div class="box b5 reveal-1" data-anim="5">
+                <h3>2008</h3>
+                <p>
+                    L'alimentation en courant continu est activée pour les serveurs d'entrée de gamme, afin de gagner en efficacité
+                </p>
+            </div>
+            <div class="box b6 reveal-1" data-anim="6">
+                <h3>2006</h3>
+                <p>
+                    Première salle de serveurs sans climatisation
+                </p>
+            </div>
+            <div class="box b7 reveal-1" data-anim="7">
+                <h3>2003</h3>
+                <p>
+                    1er système de watercooling, pour réduire les besoins en énergie
+                </p>
+            </div>
+            <div class="box b8 reveal-1" data-anim="8">
+                <h3>2002</h3>
+                <p>
+                    Les serveurs sont construits en interne, afin d’optimiser l'espace et maîtriser l'ensemble de la chaîne de valeur
+                </p>
+            </div>
+        </div> -->
+    </body>
 
 
-        <div class="box b1" data-anim="1">
-            <h2>Lorem ipsum dolor sit amet.</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nisi maxime doloremque tempora exercitationem, minima eos impedit odit quia culpa voluptatum harum unde repellat commodi?
-            </p>
-            <a href="#" class="btn">Lorem Ipsum</a>
-        </div>
-        <div class="box b2" data-anim="2">
-            <h2>Lorem ipsum dolor sit amet.</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nisi maxime doloremque tempora exercitationem, minima eos impedit odit quia culpa voluptatum harum unde repellat commodi?
-            </p>
-            <a href="#" class="btn">Lorem Ipsum</a>
-        </div>
-        <div class="box b3" data-anim="3">
-            <h2>Lorem ipsum dolor sit amet.</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nisi maxime doloremque tempora exercitationem, minima eos impedit odit quia culpa voluptatum harum unde repellat commodi?
-            </p>
-            <a href="#" class="btn">Lorem Ipsum</a>
-        </div>
-        <div class="box b4" data-anim="4">
-            <h2>Lorem ipsum dolor sit amet.</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nisi maxime doloremque tempora exercitationem, minima eos impedit odit quia culpa voluptatum harum unde repellat commodi?
-            </p>
-            <a href="#" class="btn">Lorem Ipsum</a>
+    <footer>
+        <div>
+            <a href="https://www.ovhcloud.com/fr/" target="_blank "><img src="../Images/Logo.png" alt="" width="100 " height="75px"></a>
         </div>
 
-    </div>
-</body>
+        <div class="footer-creator-page">
+            <p>Page réalisé par NOTTER Mathias, Groupe 14</p>
+        </div>
 
-<footer>
-    <div>
-      <a href="https://www.ovhcloud.com/fr/" target="_blank "><img src="../Images/Logo.png" alt="" width="100 " height="75px"></a>
-    </div>
-    
-    <div class="footer-creator-page">
-      <p>Page réalisé par Mathias Notter, Groupe 14</p>
-    </div>
-  
-  
-    <div class="footer-liens-logo">
-      <div class="footer-text-reseaux">
-        <p>Les réseaux sociaux: </p>
-      </div>
-        <a href="https://www.youtube.com/channel/UCGl9Y5S09EX-3lLfAdWsW_A" target="_blank"><img src="../Images/youtube-logo-footer.png " alt="logo de youtube" width="50px" height="50px"></a>
-        <a href="https://twitter.com/OVHcloud" target="_blank"><img src="../Images/twitter-logo-footer.png " alt="logo de twitter" width="50px" height="50px"></a>
-        <a href="https://www.linkedin.com/company/ovhgroup/" target="_blank"><img src="../Images/linkedin-logo-footer.png " alt="logo de linkedin" width="50px" height="50px"></a>
-        <a href="https://www.facebook.com/ovhcom/" target="_blank"><img src="../Images/facebook-logo-footer.png " alt="logo de facebook" width="50px" height="50px"></a>
-    </div>
-  </footer>
-  
+        <div class="footer-liens-logo">
+            <div class="footer-text-reseaux">
+                <p>Les réseaux sociaux: </p>
+            </div>
+            <a href="https://www.youtube.com/channel/UCGl9Y5S09EX-3lLfAdWsW_A" target="_blank"><img src="../Images/youtube-logo-footer.png " alt="logo de youtube" width="50px" height="50px"></a>
+            <a href="https://twitter.com/OVHcloud" target="_blank"><img src="../Images/twitter-logo-footer.png " alt="logo de twitter" width="50px" height="50px"></a>
+            <a href="https://www.linkedin.com/company/ovhgroup/" target="_blank"><img src="../Images/linkedin-logo-footer.png " alt="logo de linkedin" width="50px" height="50px"></a>
+            <a href="https://www.facebook.com/ovhcom/" target="_blank"><img src="../Images/facebook-logo-footer.png " alt="logo de facebook" width="50px" height="50px"></a>
+        </div>
+    </footer>
 </html>

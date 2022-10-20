@@ -3,47 +3,141 @@
 
 
 .titre_page{
-    font-size: 120px;
-    line-height: 160px;
-    margin-left: -10px;
-    color: transparent;
-    -webkit-text-stroke: 1px black;
-    background: url(../Images/Background_Service.png);
-    -webkit-background-clip: text ;
-    background-position: 0 0;
-    animation: back 20s linear infinite;
+
+    font-size: 50px;
+    padding: 1em 0em 1em 0em ;
+    color: white;
     text-align: center;
     justify-content: center;
     vertical-align: center;
-    
+    background-color: #0D6E64;
+    font-family: "Montserrat";
     margin-top: 30px;
     margin-left: 40px;
     margin-right: 40px;
     border-radius: 30px;
-    box-shadow: 3px 10px 26px -11px #5C5C5C;
-}
+    box-shadow: 3px 10px 26px -11px #5C5C5C;   
+     
+  }
+
+/*################################################*/
+
+
+.image_responsive{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image_radius_left{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  
+  }
+  .image_radius_right{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  
+  }
 
 
 
-@keyframes back  {
-    100%{
-        background-position: 2000px 0;
-    }
+/*################################################*/
+
+.paragraphe{
     
-}
-
-
-.nav-link1{
-    color: white;
-    text-decoration: none;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: justify;
+    font-family: "Montserrat";
     text-align: center;
-    padding: 0px 2em 0px 2em
+    background-color: #ffffff85;
+  
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+       rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  
+  
 }
+.droite{
+    margin-right: 3%;
+    margin-top: 10%;
+    margin-left: 20%;
 
+  
+}
+ 
+.gauche{
+    
+    margin-left: 3%;  
+    margin-top: 10%;
+    margin-right: 20%;
+}
+  
+  
+/*##################################*/
+
+#slider--text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+  
+.fade-in {
+  animation: fade 6s;
+}
+  
+@keyframes fade {
+  0% {
+      opacity: 0;
+      transform: rotate3d(2, 2, 0, 48deg);
+  }
+  20% {
+      opacity: 1;
+      transform: rotate3d(0, 0, 0, 24deg);
+  }
+}
+  
+  
+/*##################################*/
+  
+  
+html{
+
+    --res: calc(0.01*10vmin)
+  
+  
+  }
+  
+  h2{
+    font-family: 'Montserrat';
+    font-size: xx-large;
+    text-align: center;
+  }
+  
+  footer{
+    margin-top: 15%;
+    text-align: center;
+    background-color: #001D4A;
+    color: white;
+    
+  }
+
+
+
+
+/*################# FOND EN DÉGRADÉ #################*/
 body{
     background: rgb(0,105,146);
     background: linear-gradient(90deg, rgba(0,105,146,0.35) 0%, rgba(0,105,146,0.3) 30%, rgba(0,105,146,0.2) 49%, rgba(0,105,146,0.15) 67%, rgba(0,105,146,0.1) 84%);
 }
+/*##################################*/
+
+
+
 
 /*################# BOUTON FLECHE #################*/
 
@@ -67,18 +161,3 @@ body{
   
   /*##################################*/
 
-  .about img{
-    height: auto;
-    width: 480px;
-}
-
-.Texte_p1{
-    width: 550px;
-}
-
-.Premier_Paragraphe{
-    width: 1130px;
-    max-width: 95%;
-    margin: 0 auto;
-    
-}
