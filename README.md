@@ -17,7 +17,7 @@ Nous avons décidé de présenter l'entreprise OVHcloud leader européen du clou
 
 ## Ecran de zoning de l'accueil
 <img src="doc/ZoningAccueil.png"
-     alt="Markdown zoning accueil"/ width="50%">
+     alt="Markdown zoning accueil" width="200" />
 
 ## Ecran prototype de l'acceuil
 <img src="doc/WireframeAccueil.png"
