@@ -60,3 +60,7 @@ Rapport : Alexandre, Lenny, Simon, Mathias, Alban
 
 Diaporama :Alexandre, Lenny, Simon, Mathias, Alban
 
+##  Validation W3C
+
+La certification de chacun se trouve se trouve dans le dossier doc en .odt (le fichier contient les captures d'écrans des pages validées sans erreurs)
+
