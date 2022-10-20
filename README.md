@@ -35,3 +35,28 @@ Nous avons choisi une barre de menus épuré en haut de la page toujours accessi
 L'image en fond et l'animation donne un air moderne a la page d'accueil. La description indique clairement ce que fait l'entreprise. Il peut ensuite scroller pour en savoir plus et les boutons permettent aux visiteurs d'explorer nos differentes pages s'il le souhaite. Les boutons en bas de page permettent aussi au visiteur de partir directement sur la page qu'il souhaite sans avoir à remonter sur la barre de menus. 
 Nos pages sont conçues de blocs à droite et à gauche contenant une image et d'un texte. L'image est là pour illustrer et clarifier le texte. Cela aide à la compréhension et permet aussi de réduire le texte.
 Le footer est un simple résumé de qui a fait le site et des liens vers le site et les réseaux officiels de l'entreprise OVH.
+
+## Répartition
+
+planning : Alexandre et Lenny
+
+zoning/wireframe : Alexandre Simon
+
+Questionnaire 1: Simon et Alexandre
+
+Questionnaire 2: Simon
+
+Page d'accueil : Alexandre et Lenny(css)
+
+Page histoire : Simon 
+
+Page statistique : Lenny
+
+Page environnement: Mathias
+
+Page services : Alban
+
+Rapport : Alexandre, Lenny, Simon, Mathias, Alban
+
+Diaporama :Alexandre, Lenny, Simon, Mathias, Alban
+
