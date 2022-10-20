@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap%27');
+ 
 footer{
     margin-top: 10em;
     background-color: #231A21;
@@ -13,18 +14,18 @@ footer{
     align-items: center;
     height: 5em;
 }
+
 .footer-text-reseaux{
     color: white;
     font-family: "Montserrat";
     padding-right: 10px;
 }
+
 .footer-liens-logo img{
     padding: 0em 0.5em 0em 0.5em;
 }
-
 
 .footer-creator-page{
     font-family: "Montserrat";
     color: white;
 }
-
