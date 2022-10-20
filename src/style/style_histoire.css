@@ -179,37 +179,3 @@ background: linear-gradient(90deg, rgba(0,105,146,0.35) 0%, rgba(0,105,146,0.3) 
 }
 
 /*##################################*/
-
-
-
-
-
-/*################# SLIDER #################*/
-
-
-#slider--text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-
-
-.fade-in {
-  animation: fade 6s;
-}
-
-@keyframes fade {
-  0% {
-      opacity: 0;
-      transform: rotate3d(2, 2, 0, 48deg);
-  }
-  20% {
-      opacity: 1;
-      transform: rotate3d(0, 0, 0, 24deg);
-  }
-}
-
-
-/*##################################*/
